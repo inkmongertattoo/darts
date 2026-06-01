@@ -1,49 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#05020f"/>
-  <!-- Grid lines -->
-  <line x1="0" y1="128" x2="512" y2="128" stroke="rgba(180,100,255,.08)" stroke-width="2"/>
-  <line x1="0" y1="256" x2="512" y2="256" stroke="rgba(180,100,255,.08)" stroke-width="2"/>
-  <line x1="0" y1="384" x2="512" y2="384" stroke="rgba(180,100,255,.08)" stroke-width="2"/>
-  <line x1="128" y1="0" x2="128" y2="512" stroke="rgba(180,100,255,.08)" stroke-width="2"/>
-  <line x1="256" y1="0" x2="256" y2="512" stroke="rgba(180,100,255,.08)" stroke-width="2"/>
-  <line x1="384" y1="0" x2="384" y2="512" stroke="rgba(180,100,255,.08)" stroke-width="2"/>
-  <!-- Board rings centered at 256,260 -->
-  <circle cx="256" cy="260" r="185" fill="#0e0820"/>
-  <circle cx="256" cy="260" r="185" fill="none" stroke="rgba(200,75,255,.35)" stroke-width="3"/>
-  <circle cx="256" cy="260" r="145" fill="#080515"/>
-  <circle cx="256" cy="260" r="145" fill="none" stroke="rgba(200,75,255,.45)" stroke-width="3"/>
-  <circle cx="256" cy="260" r="100" fill="#0e0820"/>
-  <circle cx="256" cy="260" r="100" fill="none" stroke="rgba(200,75,255,.55)" stroke-width="3"/>
-  <circle cx="256" cy="260" r="58" fill="#080515"/>
-  <circle cx="256" cy="260" r="58" fill="none" stroke="rgba(0,240,255,.65)" stroke-width="3"/>
-  <!-- Bullseye -->
-  <circle cx="256" cy="260" r="28" fill="#c84bff"/>
-  <circle cx="256" cy="260" r="28" fill="none" stroke="rgba(200,75,255,.9)" stroke-width="3"/>
-  <circle cx="256" cy="260" r="13" fill="#00f0ff"/>
-  <!-- Glow -->
-  <circle cx="256" cy="260" r="28" fill="none" stroke="#c84bff" stroke-width="8" opacity="0.3"/>
-  <circle cx="256" cy="260" r="28" fill="none" stroke="#c84bff" stroke-width="18" opacity="0.1"/>
-  <!-- Crosshairs -->
-  <line x1="256" y1="75" x2="256" y2="445" stroke="rgba(200,75,255,.14)" stroke-width="2"/>
-  <line x1="71" y1="260" x2="441" y2="260" stroke="rgba(200,75,255,.14)" stroke-width="2"/>
-  <!-- DART 1: top, vertical -->
-  <line x1="256" y1="78" x2="256" y2="230" stroke="#a090c8" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="256" cy="232" r="6" fill="#00f0ff"/>
-  <rect x="240" y="70" width="32" height="12" rx="4" fill="#00f0a0"/>
-  <polygon points="256,78 236,52 276,52" fill="#00f0a0" opacity="0.9"/>
-  <polygon points="256,78 280,52 276,52" fill="#00f0ff" opacity="0.7"/>
-  <!-- DART 2: upper right -->
-  <line x1="368" y1="120" x2="278" y2="252" stroke="#a090c8" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="276" cy="254" r="6" fill="#00f0ff"/>
-  <rect x="360" y="112" width="32" height="12" rx="4" fill="#c84bff" transform="rotate(-52 376 118)"/>
-  <polygon points="368,120 404,88 388,128" fill="#c84bff" opacity="0.9"/>
-  <polygon points="368,120 376,80 388,128" fill="#ff2d87" opacity="0.7"/>
-  <!-- DART 3: upper left -->
-  <line x1="148" y1="135" x2="237" y2="253" stroke="#a090c8" stroke-width="6" stroke-linecap="round"/>
-  <circle cx="238" cy="255" r="6" fill="#00f0ff"/>
-  <rect x="140" y="127" width="32" height="12" rx="4" fill="#ffe600" transform="rotate(52 156 133)"/>
-  <polygon points="148,135 108,100 148,140" fill="#ffe600" opacity="0.9"/>
-  <polygon points="148,135 112,152 148,140" fill="#ff9900" opacity="0.7"/>
-  <!-- 180 text -->
-  <text x="256" y="460" text-anchor="middle" font-family="Orbitron, monospace" font-size="52" font-weight="900" fill="#c84bff" letter-spacing="8" opacity="0.9">180</text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#05020F;}
+	.st1{fill:none;}
+	.st2{fill:#0E0820;}
+	.st3{fill:#080515;}
+	.st4{fill:#C84BFF;}
+	.st5{opacity:0.3;fill:none;stroke:#C84BFF;stroke-width:8;enable-background:new    ;}
+	.st6{opacity:0.1;fill:none;stroke:#C84BFF;stroke-width:18;enable-background:new    ;}
+</style>
+<path class="st0" d="M112,0h288c61.9,0,112,50.1,112,112v288c0,61.9-50.1,112-112,112H112C50.1,512,0,461.9,0,400V112
+	C0,50.1,50.1,0,112,0z"/>
+<line class="st1" x1="0" y1="128" x2="512" y2="128"/>
+<line class="st1" x1="0" y1="256" x2="512" y2="256"/>
+<line class="st1" x1="0" y1="384" x2="512" y2="384"/>
+<line class="st1" x1="128" y1="0" x2="128" y2="512"/>
+<line class="st1" x1="256" y1="0" x2="256" y2="512"/>
+<line class="st1" x1="384" y1="0" x2="384" y2="512"/>
+<circle class="st2" cx="256" cy="260" r="185"/>
+<circle class="st1" cx="256" cy="260" r="185"/>
+<circle class="st3" cx="256" cy="260" r="145"/>
+<circle class="st1" cx="256" cy="260" r="145"/>
+<circle class="st2" cx="256" cy="260" r="100"/>
+<circle class="st1" cx="256" cy="260" r="100"/>
+<circle class="st3" cx="256" cy="260" r="58"/>
+<circle class="st1" cx="256" cy="260" r="58"/>
+<circle class="st4" cx="256" cy="260" r="28"/>
+<circle class="st1" cx="256" cy="260" r="28"/>
+<circle class="st5" cx="256" cy="260" r="28"/>
+<circle class="st6" cx="256" cy="260" r="28"/>
+<line class="st1" x1="256" y1="75" x2="256" y2="445"/>
+<line class="st1" x1="71" y1="260" x2="441" y2="260"/>
 </svg>
